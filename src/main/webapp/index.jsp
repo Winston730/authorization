@@ -4,21 +4,25 @@
 
 <html>
 <head>
-<link href="main.css" rel="stylesheet" type="text/css">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here  </title>
 </head>
 <body>
 
-	<form name="login" method="POST" action="/auth1/login.jsp">
-	<button type="submit" name="submit_button" value="main_button">Авторизация</button>
-   </form>
+	<p>Авторизация :</p>
+	<form action="login.jsp" method="post">
+	<label for="login">Введите свой логин:     </label>
+	<input type="text" name="login"> <br>
+	<label for="password">Введите свой пароль: </label>
+	<input type="password" name="password"> <br>
+	<input type="submit" value="Войти"> <br>
+	</form>
 	
-	
-	<form name="registration" method="POST" action="/auth1/reg.jsp">
-	<button type="submit" name="submit_button" value="main_button">Регистрация</button>
-   </form>
-	
+
+	<form action="reg.jsp" method="post">
+	<input type="submit" value="Регистрация">
+	</form>
 	
 </body>
 </html>
