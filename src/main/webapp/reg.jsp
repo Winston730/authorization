@@ -4,17 +4,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
-<p>Регистрация!!!!!</p>
 
-	<form action="Controller" method="get">
-      <input type="text" name="name" placeholder="Ваше имя" /> <br />
-      <input type="text" name="login" placeholder="Логин" /> <br />
-      <input type="password" name="pass" placeholder="Пароль" /> <br />
-      <br />
-      <button type="submit" name="submit_button" value="main_button">Зарегистрироваться</button>
-   </form>
+<form action="Controller" method="post">
+	<p>Логин:
+	<input type="text" placeholder="login" name="login" value=""><br>
+	Пароль:
+	<input type="password" placeholder="password" name="password" value=""><br>
+	Фамилия:
+	<input type="text" placeholder="Фамилия" name="surname" value=""><br>
+	Имя:
+	<input type="text" placeholder="Имя" name="name" value=""><br>
+	<input type="submit" value="Зарегистрироваться" value=""></p>
+	</form>
+
+
 </body>
 </html>
